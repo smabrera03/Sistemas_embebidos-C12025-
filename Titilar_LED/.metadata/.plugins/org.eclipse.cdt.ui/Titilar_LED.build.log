@@ -1,0 +1,17 @@
+10:10:52 **** Incremental Build of configuration Debug for project Titilar_LED ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Titilar_LED.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Santiago\Desktop\facu\2025c1\Embebidos\Titilar_LED\Titilar_LED\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Titilar_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Titilar_LED.elf
+ 
+arm-none-eabi-size  Titilar_LED.elf 
+arm-none-eabi-objdump -h -S Titilar_LED.elf  > "Titilar_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+   5680	     12	   1644	   7336	   1ca8	Titilar_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Titilar_LED.list
+ 
+
+10:10:54 Build Finished. 0 errors, 0 warnings. (took 1s.335ms)
+
