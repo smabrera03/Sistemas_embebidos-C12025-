@@ -1,0 +1,10 @@
+17:30:40 **** Incremental Build of configuration Debug for project tdse-tp3_06-interactive_menu ****
+make -j4 all 
+arm-none-eabi-size  tdse-tp3_06-interactive_menu.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17276	    160	   2312	  19748	   4d24	tdse-tp3_06-interactive_menu.elf
+Finished building: default.size.stdout
+ 
+
+17:30:42 Build Finished. 0 errors, 0 warnings. (took 1s.977ms)
+

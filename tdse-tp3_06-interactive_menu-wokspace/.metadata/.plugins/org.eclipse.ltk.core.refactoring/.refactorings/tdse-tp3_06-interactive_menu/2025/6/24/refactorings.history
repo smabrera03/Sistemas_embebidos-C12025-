@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;tdse-tp3_06-interactive_menu/app/src/display.c&apos; to &apos;display(OF).c&apos;" description="Rename resource &apos;display.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="app/src/display.c" name="display(OF).c" stamp="1749641760862" updateReferences="true"/>
+</session>

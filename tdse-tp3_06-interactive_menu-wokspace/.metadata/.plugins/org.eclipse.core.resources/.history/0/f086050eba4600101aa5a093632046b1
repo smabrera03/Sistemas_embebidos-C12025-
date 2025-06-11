@@ -1,0 +1,15 @@
+  app.c (app.h)
+   Endless loops, which execute tasks with fixed computing time. This 
+   sequential execution is only deviated from when an interrupt event occurs.
+
+...
+
+Cosas a hacer:
+1) configurar los sensores
+	1.1) configurar .ioc
+	1.2) configurar task_sensor_attribute.h
+	1.3)configurar task_sensor.c
+
+2) Confiugrar task_menu_attribute.h
+	2.1)definir todos los eventos y estados de mi maquina de estados
+	2.2)

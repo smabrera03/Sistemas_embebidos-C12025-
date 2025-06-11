@@ -1,0 +1,32 @@
+  task_menu.c (task_menu.h, task_menu_attribute.h) 
+   Non-Blocking Code -> System Modeling
+  
+  task_menu_interface.c (task_menu_interface.h)
+   Non-Blocking Code
+
+...
+
+En task_menu_attribute.h hay 2 eventos por cada botón
+BTN_ACTIVE y BTN_IDLE
+
+Estados: Hay 8 estados
+
+ST_MEN_MAIN
+
+ST_MEN_SELECT_MOTOR
+
+ST_MEN_SET_POWER
+ST_MEN_SET_SPIN
+ST_MEN_SET_SPEED
+
+ST_MEN_MODIFY_POWER
+ST_MEN_MODIFY_SPIN
+ST_MEN_MODIFY_SPEED
+
+agregué los tipos spin y power
+
+creé la estructura motor_t
+
+dentro de la estructura task_menu_dta_t hay 2 estructuras de motor
+Medio polémico meter una estructura adentro de una estructura. 
+Otra opción sería hacer una lista de estructuras.
